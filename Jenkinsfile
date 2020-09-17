@@ -12,7 +12,6 @@ node {
          * docker build on the command line */
         app = docker.build("mcalik/hellonode")
         
-        
     }
 
     stage('Test image') {
